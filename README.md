@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project is just a demo version of how the folder of "Xsquare Project" will be structured.
+Folders might be added, modified or removed as the "Xsquare Project" developed.
 
-## Available Scripts
+## Root
 
-In the project directory, you can run:
+In this place, all the configuration files will be located with examples as below.
 
-### `npm start`
+`.gitignore`, 'pacakage.json', '.env.local', 'eslintrc.js' and so on
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Routes.js`: would like to place in Root directory. representational file to show routes of entire project.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## `public` Folder
 
-### `npm test`
+In this folder, resources regard with `index.html` will be placed as itself with examples as below.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`logo.png`, `manifest.json` and so on
 
-### `npm run build`
+### `src` Folder
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In this folder, all the resources will be categorized as its naming such as Component files will be placed inside of `components` folder and etc.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+For example:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `assets`: for all the assets such as images.
 
-### `npm run eject`
+- `components`: for all the components which has possibility to be re-used at least once or more.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- `pages`: for all the pages files.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `styles`: all files regards with styles such as collection of commonly used variables, or `reset.css`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- `utils`: for all the `.js` files composed with functions for processing the data or which have reusablility, and categorized with folders as its feature.
