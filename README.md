@@ -7,7 +7,7 @@ In this place, all the configuration files will be located with examples as belo
 
 `.gitignore`, 'pacakage.json', '.env.local', 'eslintrc.js' and so on
 
-### `Routes.js`: would like to place in Root directory. representational file to show routes of entire project.
+`Routes.js`: would like to place in Root directory. representational file to show routes of entire project.
 
 ## `public` Folder
 
