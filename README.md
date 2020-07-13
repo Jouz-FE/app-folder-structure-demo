@@ -6,6 +6,7 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 ---
 
 <br>
+
 ## `Root` directory
 
 `root` 경로에는 모든 congifuration 파일들을 두려고 하고 그 예들은 아래와 같습니다.
