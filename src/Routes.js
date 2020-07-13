@@ -1,8 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './routes/App'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HomePage, LoginPage} from './pages'
 
-ReactDOM.render(<div><App /></div>,document.getElementById('root')
-);
+
+const Routes =()=> {
+    return(
+        <Router>
+            <Switch>
+                <Route exact path="/" component={HomePage} />
+                <Route exact path="/login" component={LoginPage} />
+            </Switch>
+        </Router>
+    )
+}
+export default Routes
 
 
