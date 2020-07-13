@@ -11,6 +11,7 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 `root` 경로에는 모든 congifuration 파일들을 두려고 하고 그 예들은 아래와 같습니다.
 
 `.gitignore`, `pacakage.json`, `.env.local`, `eslintrc.js` and etc
+
 <br>
 
 ## `public` Folder
@@ -18,6 +19,7 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 이 폴더에는 `index.html`과 이 파일에 포함될 다른 리소스 파일들을 두려고 합니다. 그 예들은 아래와 같습니다.
 
 `logo.png`, `manifest.json` and so on
+
 <br>
 
 ## `src` Folder
