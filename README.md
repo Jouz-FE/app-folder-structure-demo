@@ -44,18 +44,33 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 
 - `assets`: for all the assets using for the application or components such as images.
 
+<br>
+
 - `components`: for all the components which has possibility to be re-used at least once or more.
     - this folder will be divided into two folders; `Presenter` and `Container`
     - `Presenter`: all the components which have at least once or more possibility to be re-used but only for Presentational purpose; UI only components.
     - `Container`: all the components which have at least once or more possibility to be re-used but have logics and modify Presentational components with its purpose. 
 
+<br>
+
+
 - `lib`: collection of files composing functions or logics regard with libraries used for application which are not considered as not essential such as logics for social login and etc: context API, redux or grapqQl will be placed in `src` directory since it will be used a lot and could be considered as essesntial for the project or application throughout the development.
+
+<br>
+
 
 - `pages`: for all the pages files or components.
     -this folder will be divided into several folders by its name and they contains two files; `Presenter.js` and `Container.js`
     - the purpose of  `Presenter.js` is to collect all the files or components into one file in order to make better readability. so this js file will be no more than but presentational purpose.
-    - the purpose of `Container.js` is to se
+    - the purpose of `Container.js` is to seperate logics and UI of the component. therfore all the logics required for this entire page will be written in this js file.
+
+<br>
+
+
 
 - `styles`: all files regards with styles such as collection of commonly used variables, or `reset.css` not for the styles files for each component.
+
+<br>
+
 
 - `utils`: collection of `.js` files which have reusablility, and categorized with folders as its feature, composed with functions for processing the data
