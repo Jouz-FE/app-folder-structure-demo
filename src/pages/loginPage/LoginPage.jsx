@@ -1,7 +1,14 @@
 import React from "react";
+import { LoginButton, PasswordInput } from "../../components";
 
 const LoginPage = () => {
-  return <div>I'm Login Page</div>;
+  // huge logic will be written in here
+  return (
+    <>
+      <LoginButton />
+      <PasswordInput />
+    </>
+  );
 };
 
 export default LoginPage;
