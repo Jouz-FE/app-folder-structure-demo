@@ -3,8 +3,6 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 
 <h1> summary </h1>
 
-
-
 <br>
 
 ## `Root` directory
@@ -35,7 +33,7 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 
 - `Routes.js`: will be a presentational file to show routes of entire project at a glance including how the components are connected with router, provider and arrange of components groups who shares common state seperately such as mixed using of context API, Redux or etc, if neccessary.
 
-- `app.js`: will be also a presentational component to make identification or have symbol that this project is application: nothing more or less than just having symbolic meaning since `Routes.js` has weak meaning for Application but all the `Provider` components will be written in this file in order to have better readability.
+- `app.js`: will be also a presentational component to make identification or have symbol that this project is application: nothing more or less than just having symbolic meaning since `Routes.js` has weak meaning for Application.
 
 - `index.js`: same reason as why the most project has this file: composed with a single logic which makes `app.js` to be rendered in html tag who has root id.
 
@@ -46,30 +44,25 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 <br>
 
 - `components`: for all the components which has possibility to be re-used at least once or more.
-    - this folder will be divided into two folders; `Presenter` and `Container`
-    - `Presenter`: all the components which have at least once or more possibility to be re-used but only for Presentational purpose; UI only components.
-    - `Container`: all the components which have at least once or more possibility to be re-used but have logics and modify Presentational components with its purpose. 
+  - this folder will be divided into two folders; `Presenter` and `Container`
+  - `Presenter`: all the components which have at least once or more possibility to be re-used but only for Presentational purpose; UI only components.
+  - `Container`: all the components which have at least once or more possibility to be re-used but have logics and modify Presentational components with its purpose.
 
 <br>
-
 
 - `lib`: collection of files composing functions or logics regard with libraries used for application which are not considered as not essential such as logics for social login and etc: context API, redux or grapqQl will be placed in `src` directory since it will be used a lot and could be considered as essesntial for the project or application throughout the development.
 
 <br>
 
-
 - `pages`: for all the pages files or components.
-    -this folder will be divided into several folders by its name and they contains two files; `Presenter.js` and `Container.js`
-    - the purpose of  `Presenter.js` is to collect all the files or components into one file in order to make better readability. so this js file will be no more than but presentational purpose.
-    - the purpose of `Container.js` is to seperate logics and UI of the component. therfore all the logics required for this entire page will be written in this js file.
+  -this folder will be divided into several folders by its name and they contains two files; `Presenter.js` and `Container.js`
+  - the purpose of `Presenter.js` is to collect all the files or components into one file in order to make better readability. so this js file will be no more than but presentational purpose.
+  - the purpose of `Container.js` is to seperate logics and UI of the component. therfore all the logics required for this entire page will be written in this js file.
 
 <br>
-
-
 
 - `styles`: all files regards with styles such as collection of commonly used variables, or `reset.css` not for the styles files for each component.
 
 <br>
-
 
 - `utils`: collection of `.js` files which have reusablility, and categorized with folders as its feature, composed with functions for processing the data
