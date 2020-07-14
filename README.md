@@ -33,7 +33,7 @@ Xquare 어플리케이션의 폴더 구조 데모 버전, 기본적인 풀더 �
 
 - `Routes.js`: will be a presentational file to show routes of entire project at a glance including how the components are connected with router, provider and arrange of components groups who shares common state seperately such as mixed using of context API, Redux or etc, if neccessary.
 
-- `app.js`: will be also a presentational component to make identification or have symbol that this project is application: nothing more or less than just having symbolic meaning since `Routes.js` has weak meaning for Application.
+- `app.js`: will be also a presentational component to make identification or have symbol that this project is application: nothing more or less than just having symbolic meaning since Routes.js has weak meaning for Application but all the Provider components will be written in this file in order to have better readability.
 
 - `index.js`: same reason as why the most project has this file: composed with a single logic which makes `app.js` to be rendered in html tag who has root id.
 
